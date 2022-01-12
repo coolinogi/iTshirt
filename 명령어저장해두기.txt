@@ -1,0 +1,44 @@
+
+해당 폴더에서 [Git Bash Here]
+
+git init
+
+cd로 폴더이동 가능했음(맞는 방법인가? 되니까 된거겄지...이럴 때 답해줄 사람이 없음)
+
+git config --global user.email "hello.git.inogi2000@gmail.com" //저자가 헷갈리게 써놨음. 꼭 user.email 부분을 바꿔야 할 것 같자나~
+
+git config --gloabal user.name "coolinogi"
+
+git add README.txt
+
+git commit -m "사이트 설명 추가" 
+
+다시 git add README.txt
+git commit -m "설명 업데이트"
+
+git log
+
+git checkout 코드앞7자리
+
+git checkout -   //마지막 버전으로 감
+
+--------------------------------
+내 저장소
+https://github.com/coolinogi/iTshirt.git
+
+echo "# iTshirt" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/coolinogi/iTshirt.git
+git push -u origin main
+
+git remote add origin https://github.com/coolinogi/iTshirt.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
